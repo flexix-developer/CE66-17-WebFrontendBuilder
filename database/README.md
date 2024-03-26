@@ -47,7 +47,10 @@ Ensure that you have Docker and Docker Compose installed on your computer. You c
 3. **Edit .env File**: Open the `.env` file located in the `backend` directory using a text editor.
 
 4. **Configure MySQL Connection**: In the `.env` file, locate the `MYSQL_DNS` variable and edit it to match your MySQL connection details. The format should be as follows:
-`username:password@tcp(database:3306)/database_name?charset=utf8mb4&parseTime=True&loc=Local` Replace `username`, `password`, and `database_name` with your MySQL credentials and database name.
+   ```
+   username:password@tcp(database:3306)/database_name?charset=utf8mb4&parseTime=True&loc=Local
+   ```
+   Replace `username`, `password`, and `database_name` with your MySQL credentials and database name.
 
 5. **Adjust API Server Host (Optional)**: If necessary, open the `main.go` file located in the `backend` directory using a text editor. Adjust the host from `"localhost:8081"` to `"0.0.0.0:8081"` to ensure the API server is accessible from outside the Docker container.
 
