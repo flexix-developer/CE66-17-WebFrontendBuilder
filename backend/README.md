@@ -18,8 +18,8 @@
 8. For Web Application, go to the frontend folder.
 9. Use the command `npm install` to install the required dependencies.
 10. Use the command `npm start` to open the website in your browser.
-11. For Web Server, open Xampp and start Apache and MySQL modules.
-12. Open your browser and go to http://localhost/phpmyadmin/ to create a database named `backend_db` with Collation as utf8mb4_general_ci.
+11. For Web Server, open Xampp and start `Apache` and `MySQL` modules.
+12. Open your browser and go to http://localhost/phpmyadmin/ to create a database named `backend_db` with Collation as `utf8mb4_general_ci`.
 13. For API Server, go to the backend folder.
 14. Open the .env file and verify the correctness of `MYSQL_DNS`, which should be `root:@tcp(127.0.0.1:3306)/database_db?charset=utf8mb4&parseTime=True&loc=Local`.
 9. Open the main.go file and and verify the correctness of `r.RUN()`, which should be `r.RUN("localhost:8081")`
