@@ -1,4 +1,4 @@
-# Installing the Program with Docker
+# Installing the Program with Docker (build image locally)
 
 ## System Requirements
 - Operating System: Windows, macOS, or Linux
