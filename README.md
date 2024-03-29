@@ -10,8 +10,8 @@
 - Screen Resolution: At least 1920x1080 pixels
 
 ### Installation Steps
-1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-2. Install [Docker Compose](https://docs.docker.com/compose/install/)
+1. Download and Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+2. Download and Install [Docker Compose](https://docs.docker.com/compose/install/)
 3. Clone the repository:
     ```bash
     git clone https://github.com/flexix-developer/CE66-17-WebFrontendBuilder.git
