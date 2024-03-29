@@ -26,3 +26,7 @@
 10. Use the command `go get .` to install the required libraries.
 11. Use the command `go run .` to start the API Server.
 12. Access the website through your browser by visiting [http://localhost:3000/](http://localhost:3000/)
+
+# Installing the Program with Docker
+
+Go to [branch main](https://github.com/flexix-developer/CE66-17-WebFrontendBuilder/tree/main) or `https://github.com/flexix-developer/CE66-17-WebFrontendBuilder/tree/main`
