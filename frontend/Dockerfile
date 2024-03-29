@@ -2,38 +2,20 @@ FROM node:20.9.0 as build
 
 WORKDIR /app
 
-COPY package*.json ./
-
-RUN npm install
-
 COPY . .
+
+RUN npm ci
 
 RUN npm run build
 
-FROM nginx:alpine
+FROM node:20.9.0-alpine3.18
 
-COPY --from=build /app/build /usr/share/nginx/html
+WORKDIR /app
 
-EXPOSE 80
+RUN npm install -g serve
 
-CMD ["nginx", "-g", "daemon off;"]
+COPY --from=build /app/build /app/build
 
-# WORKDIR /app
+EXPOSE 3000
 
-# COPY . .
-
-# RUN npm ci
-
-# RUN npm run build
-
-# FROM node:20.9.0-alpine3.18
-
-# WORKDIR /app
-
-# RUN npm install -g serve
-
-# COPY --from=build /app/build /app/build
-
-# EXPOSE 3000
-
-# ENTRYPOINT ["serve", "-s", "build", "-l", "3000"]
+ENTRYPOINT ["serve", "-s", "build", "-l", "3000"]
