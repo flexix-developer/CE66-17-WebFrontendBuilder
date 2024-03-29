@@ -19,3 +19,7 @@
 9. Open the main.go file and and verify the correctness of `r.Run()`, which should be `r.Run("0.0.0.0:8081")`
 10. Use the command `docker-compose up -d` or `docker compose up -d` to automatically create containers.
 11. Access the website through your browser by visiting [http://localhost:3000/](http://localhost:3000/)
+
+# Installing the Program on Your Computer
+
+Go to [branch dev](https://github.com/flexix-developer/CE66-17-WebFrontendBuilder/tree/dev) or `https://github.com/flexix-developer/CE66-17-WebFrontendBuilder/tree/dev`
