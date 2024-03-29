@@ -8,9 +8,9 @@
 - Screen Resolution: At least 1920x1080 pixels
 
 ## Installation Steps
-1. Install [Visual Studio Code](https://code.visualstudio.com/).
-2. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
-3. Install [Docker Compose](https://docs.docker.com/compose/install/).
+1. Install [Visual Studio Code](https://code.visualstudio.com/)
+2. Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
+3. Install [Docker Compose](https://docs.docker.com/compose/install/)
 4. Clone the project from GitHub:
     ```bash
     git clone https://github.com/flexix-developer/CE66-17-WebFrontendBuilder.git
