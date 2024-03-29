@@ -7,7 +7,7 @@
 4. Screen Resolution: At least 1920x1080 pixels
 
 ## Installation Steps
-1. Install Visual Studio Code or any other Text Editor you prefer.
+1. Install [Visual Studio Code](https://code.visualstudio.com/) or any other Text Editor you prefer.
 2. Install Docker Desktop, which can be downloaded from [Docker's official website](https://www.docker.com/products/docker-desktop/)
 3. Install Docker Compose, which can be downloaded from [Docker's official documentation](https://docs.docker.com/compose/install/)
 4. Open Terminal or Command Prompt and navigate to the directory where you want to install the project.
