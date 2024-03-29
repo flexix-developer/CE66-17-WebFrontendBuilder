@@ -4,11 +4,11 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install
+RUN npm ci
 
 RUN npm run build
 
-FROM node:20.9.0-alpine
+FROM node:20.9.0-alpine3.18
 
 WORKDIR /app
 

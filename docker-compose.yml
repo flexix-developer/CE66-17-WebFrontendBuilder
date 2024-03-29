@@ -25,7 +25,7 @@ services:
 
   mysql:
     container_name: database
-    image: mysql:latest
+    image: mysql:8.2.0
     restart: always
     ports:
       - 3306:3306
@@ -39,7 +39,7 @@ services:
 
   phpmyadmin:
     container_name: phpmyadmin
-    image: phpmyadmin/phpmyadmin:latest
+    image: phpmyadmin/phpmyadmin:5.2
     restart: always
     ports:
       - 8000:80
