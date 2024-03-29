@@ -21,7 +21,7 @@ const HomePage = () => {
         const ID = localStorage.getItem("ID");
         const token = localStorage.getItem("token");
         const response = await axios.get(
-          `http://10.98.0.36:8081/users/readall/${ID}`,
+          `http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/readall/${ID}`,
           // `http://ceproject.thddns.net:3322/users/readall/${ID}`,
           {
             headers: {
@@ -53,7 +53,7 @@ const HomePage = () => {
       const ID = localStorage.getItem("ID");
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://10.98.0.36:8081/users/readproject/${ID}`,
+        `http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/readproject/${ID}`,
         // `http://ceproject.thddns.net:3322/users/readproject/${ID}`,
         {
           headers: {
@@ -116,7 +116,7 @@ const HomePage = () => {
     try {
       const token = localStorage.getItem("token");
       await axios.delete(
-        `http://10.98.0.36:8081/users/delproject/${projectId}`,
+        `http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/delproject/${projectId}`,
         // `http://ceproject.thddns.net:3322/users/delproject/${projectId}`,
         {
           headers: {
@@ -147,7 +147,7 @@ const HomePage = () => {
   //     console.log("id", id, projectId, token);
 
   //     const response = await axios.post(
-  //       "http://10.98.0.36:8081/users/downproject",
+  //       "http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/downproject",
   //       // "http://ceproject.thddns.net:3322/users/page",
   //       {
   //         id: id,
@@ -188,7 +188,7 @@ const HomePage = () => {
       };
 
       const response = await axios.post(
-        `http://10.98.0.36:8081/users/downproject`,
+        `http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/downproject`,
         // `http://ceproject.thddns.net:3322/users/downproject`,
 
         requestData, // ส่ง requestData โดยไม่ต้องแปลงเป็น JSON ซึ่ง Axios จะทำให้โดยอัตโนมัติ
@@ -220,7 +220,7 @@ const HomePage = () => {
       const token = localStorage.getItem("token");
       const id = localStorage.getItem("ID");
       await axios.put(
-        `http://10.98.0.36:8081/users/editname/${projectId}`,
+        `http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/editname/${projectId}`,
         // `http://ceproject.thddns.net:3322/users/editname/${projectId}`,
         { id: id, newpname: editedProjectName },
         {
@@ -257,7 +257,7 @@ const HomePage = () => {
         const token = localStorage.getItem("token");
         try {
           await axios.post(
-            "http://10.98.0.36:8081/users/create",
+            "http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/create",
             // "http://ceproject.thddns.net:3322/users/create",
             {
               id: ID,

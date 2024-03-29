@@ -118,7 +118,7 @@ const DesignPage = () => {
       const ProjectID = localStorage.getItem("ProjectID");
 
       const response = await axios.get(
-        `http://10.98.0.36:8081/users/getpages/${ID}/${ProjectID}`,
+        `http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/getpages/${ID}/${ProjectID}`,
         // `http://ceproject.thddns.net:3322/users/getpages/${ID}/${ProjectID}`,
         {
           headers: {
@@ -151,7 +151,7 @@ const DesignPage = () => {
       const ID = localStorage.getItem("ID");
       const token = localStorage.getItem("token");
       const response = await axios.get(
-        `http://10.98.0.36:8081/users/readall/${ID}`,
+        `http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/readall/${ID}`,
         // `http://ceproject.thddns.net:3322/users/readall/${ID}`,
 
         {
@@ -227,7 +227,7 @@ const DesignPage = () => {
     } else {
       try {
         await axios.post(
-          "http://10.98.0.36:8081/users/page",
+          "http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/page",
           // "http://ceproject.thddns.net:3322/users/page",
           {
             userID: ID,
@@ -279,7 +279,7 @@ const DesignPage = () => {
     const token = localStorage.getItem("token");
     try {
       const response = await axios.post(
-        "http://10.98.0.36:8081/users/gethtmlandscript",
+        "http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/gethtmlandscript",
         // "http://ceproject.thddns.net:3322/users/gethtmlandscript",
         {
           id: ID,

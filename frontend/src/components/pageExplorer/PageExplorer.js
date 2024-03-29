@@ -70,7 +70,7 @@ const PageExplorer = ({
 
     try {
       await axios.post(
-        "http://10.98.0.36:8081/users/deletepage",
+        "http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/deletepage",
         // "http://ceproject.thddns.net:3322/users/deletepage",
         {
           id: ID,
@@ -99,7 +99,7 @@ const PageExplorer = ({
 
   //   try {
   //     await axios.post(
-  //       "http://10.98.0.36:8081/users/savepage",
+  //       "http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/savepage",
   //       {
   //         id: ID,
   //         proid: ProjectID,
@@ -141,7 +141,7 @@ const PageExplorer = ({
         console.log(editedPageName.slice(0, -5), editedNewPageName);
 
         await axios.post(
-          "http://10.98.0.36:8081/users/editpage",
+          "http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/editpage",
           // "http://ceproject.thddns.net:3322/users/editpage",
           {
             id: ID,
@@ -179,7 +179,7 @@ const PageExplorer = ({
       const token = localStorage.getItem("token");
 
       const response = await axios.post(
-        "http://10.98.0.36:8081/users/getpage",
+        "http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/getpage",
         // "http://ceproject.thddns.net:3322/users/getpage",
         {
           id: ID,
