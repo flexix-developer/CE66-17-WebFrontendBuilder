@@ -35,7 +35,7 @@ function ForgotTwo({ onNextStep }) {
     const otpCode = numbers.join("");
 
     try {
-      const response = await axios.post("http://localhost:8081/check", {
+      const response = await axios.post("http://10.98.0.36:8081/check", {
         // const response = await axios.post(
         //   "http://ceproject.thddns.net:3322/check",
         //   {
@@ -79,7 +79,7 @@ function ForgotTwo({ onNextStep }) {
     e.preventDefault();
     console.log(userData.email);
     try {
-      const response = await axios.post("http://localhost:8081/forgot", {
+      const response = await axios.post("http://10.98.0.36:8081/forgot", {
         // const response = await axios.post(
         //   "http://ceproject.thddns.net:3322/forgot",
         //   {

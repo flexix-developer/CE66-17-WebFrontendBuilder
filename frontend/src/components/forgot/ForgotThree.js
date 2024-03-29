@@ -21,7 +21,7 @@
 //       return;
 //     }
 
-//     const apiUrl = "http://127.0.0.1:8000/repass";
+//     const apiUrl = "http://10.98.0.36:8000/repass";
 
 //     try {
 //       // Make a PUT request to the Django API
@@ -181,7 +181,7 @@ function ForgotThree() {
     //   return;
     // }
 
-    const apiUrl = "http://localhost:8081/reset";
+    const apiUrl = "http://10.98.0.36:8081/reset";
     // const apiUrl = "http://ceproject.thddns.net:3322/reset";
 
     try {

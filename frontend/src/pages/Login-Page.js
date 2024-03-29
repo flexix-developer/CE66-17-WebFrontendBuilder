@@ -28,7 +28,7 @@ const LoginPage = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post("http://127.0.0.1:8081/login", {
+      const response = await axios.post("http://10.98.0.36:8081/login", {
         // const response = await axios.post(
         //   "http://ceproject.thddns.net:3322/login",
         // {
