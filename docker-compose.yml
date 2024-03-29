@@ -1,6 +1,15 @@
 version: '3.9'
 
 services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    volumes:
+      - ../build:/usr/share/nginx/html
+    depends_on:
+    - react
+
   react:
     container_name: frontend
     build: 
