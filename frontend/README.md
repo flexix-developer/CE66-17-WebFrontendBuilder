@@ -7,7 +7,7 @@
 4. Screen Resolution: At least 1920x1080 pixels
 
 ## Installation Steps
-1. Install Visual Studio Code or any other Text Editor you prefer.
+1. Install [Visual Studio Code](https://code.visualstudio.com/) or any other Text Editor you prefer.
 2. Download and install [Node.js version 20.9.0](https://nodejs.org/en/blog/release/v20.9.0/)
 3. Download and install [Golang version 1.21.5](https://go.dev/dl/)
 4. Download and install [Xampp version 8.0.30](https://www.apachefriends.org/download.html)
