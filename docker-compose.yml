@@ -21,7 +21,7 @@ services:
 
   mysql:
     container_name: database
-    image: aekarinongart/flexix-database-mysql:latest
+    image: mysql:latest
     restart: always
     ports:
       - 3306:3306
@@ -35,7 +35,7 @@ services:
 
   phpmyadmin:
     container_name: phpmyadmin
-    image: aekarinongart/flexix-database-phpmyadmin:latest
+    image: phpmyadmin/phpmyadmin:latest
     restart: always
     ports:
       - 8000:80
