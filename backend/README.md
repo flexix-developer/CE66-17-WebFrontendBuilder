@@ -13,7 +13,7 @@
 4. Download and install [Xampp version 8.0.30](https://www.apachefriends.org/download.html)
 5. Open Terminal or Command Prompt and navigate to the directory where you want to install the project.
 6. Clone the project from GitHub using the command:
-`git clone https://github.com/flexix-developer/CE66-17-WebFrontendBuilder.git`
+```git clone https://github.com/flexix-developer/CE66-17-WebFrontendBuilder.git```
 1. Navigate to the cloned folder. You'll find frontend, backend folders.
 2. For Web Application, go to the frontend folder.
 3. Use the command `npm install` to install the required dependencies.
