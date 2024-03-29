@@ -28,7 +28,7 @@ const LoginPage = () => {
 
   const handleLogin = async () => {
     try {
-      const response = await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th:8081/login", {
+      const response = await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th/login", {
         // const response = await axios.post(
         //   "http://ceproject.thddns.net:3322/login",
         // {

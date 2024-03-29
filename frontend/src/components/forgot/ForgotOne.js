@@ -122,7 +122,7 @@ function ForgotOne({ onNextStep }) {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th:8081/forgot", {
+      const response = await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th/forgot", {
         // const response = await axios.post(
         //   "http://ceproject.thddns.net:3322/forgot",
         //   {

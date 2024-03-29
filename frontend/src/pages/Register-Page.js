@@ -179,7 +179,7 @@ const RegisterPage = () => {
 
     try {
       // Your axios post request here...
-      await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th:8081/register", {
+      await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th/register", {
         // await axios.post("http://ceproject.thddns.net:3322/register", {
         fname: fname,
         lname: lname,

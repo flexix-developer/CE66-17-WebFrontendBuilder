@@ -181,7 +181,7 @@ function ForgotThree() {
     //   return;
     // }
 
-    const apiUrl = "http://ce66-17.cloud.ce.kmitl.ac.th:8081/reset";
+    const apiUrl = "http://ce66-17.cloud.ce.kmitl.ac.th/reset";
     // const apiUrl = "http://ceproject.thddns.net:3322/reset";
 
     try {

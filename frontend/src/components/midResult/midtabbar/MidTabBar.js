@@ -27,7 +27,7 @@ const MidTabBar = ({
       const token = localStorage.getItem("token");
 
       const response = await axios.post(
-        "http://ce66-17.cloud.ce.kmitl.ac.th:8081/users/getpage",
+        "http://ce66-17.cloud.ce.kmitl.ac.th/users/getpage",
         // "http://ceproject.thddns.net:3322/users/getpage",
         {
           id: ID,
