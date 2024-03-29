@@ -39,14 +39,14 @@
 8. Copy `docker-compose.yml` from `.docker` to project root, overwriting if necessary:
     ```bash
     xcopy /y .docker\docker-compose.yml .
-   ```
+    ```
 9.  Run Docker Compose to automatically create containers:
     ```bash
-    docker-compose up -d
-    ```
-   or
-    ```bash
     docker compose up -d
+    ```
+    or
+    ```bash
+    docker-compose up -d
     ```
 10. Access the website through your browser by visiting [http://localhost:3000/](http://localhost:3000/)
 
