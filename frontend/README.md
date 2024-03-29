@@ -44,7 +44,7 @@
     ```bash
     docker-compose up -d
     ```
-   or
+    or
     ```bash
     docker compose up -d
     ```
