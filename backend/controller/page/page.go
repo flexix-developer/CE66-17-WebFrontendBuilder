@@ -434,7 +434,7 @@ func PreViewPage(c *gin.Context) {
 		return
 	}
 
-	pageURL := "http://0.0.0.0:8081/run/" + json.ID + "/" + json.ProjectID + "/" + json.PageName + ".html"
+	pageURL := "https://ce66-17.cloud.ce.kmitl.ac.th/run/" + json.ID + "/" + json.ProjectID + "/" + json.PageName + ".html"
 
 	// pageURL := "http://ceproject.thddns.net:3322/run/"+json.ID+"/"+json.ProjectID+"/" + json.PageName + ".html"
 	// ส่ง URL กลับไปยัง client
