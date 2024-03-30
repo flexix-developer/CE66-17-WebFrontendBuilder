@@ -3,9 +3,7 @@ version: '3.9'
 services:
   react:
     container_name: frontend
-    build: 
-      context: ./frontend
-      dockerfile: Dockerfile
+    image: aekarinongart/flexix-frontend-react-deploy:latest
     restart: always
     ports:
       - 3000:3000
@@ -14,7 +12,7 @@ services:
 
   golang:
     container_name: backend
-    image: aekarinongart/flexix-backend-golang:latest
+    image: aekarinongart/flexix-backend-golang-deploy:latest
     restart: always
     ports:
       - 8081:8081
