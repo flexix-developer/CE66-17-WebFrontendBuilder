@@ -60,7 +60,7 @@ const MidResult = ({
     } else {
       try {
         await axios.post(
-          "http://ce66-17.cloud.ce.kmitl.ac.th/users/page",
+          "https://ce66-17.cloud.ce.kmitl.ac.th/users/page",
           // "http://ceproject.thddns.net:3322/users/page",
           {
             userID: ID,

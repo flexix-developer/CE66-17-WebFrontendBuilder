@@ -35,7 +35,7 @@ function ForgotTwo({ onNextStep }) {
     const otpCode = numbers.join("");
 
     try {
-      const response = await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th/check", {
+      const response = await axios.post("https://ce66-17.cloud.ce.kmitl.ac.th/check", {
         // const response = await axios.post(
         //   "http://ceproject.thddns.net:3322/check",
         //   {
@@ -79,7 +79,7 @@ function ForgotTwo({ onNextStep }) {
     e.preventDefault();
     console.log(userData.email);
     try {
-      const response = await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th/forgot", {
+      const response = await axios.post("https://ce66-17.cloud.ce.kmitl.ac.th/forgotpass", {
         // const response = await axios.post(
         //   "http://ceproject.thddns.net:3322/forgot",
         //   {

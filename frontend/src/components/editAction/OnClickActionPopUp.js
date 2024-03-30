@@ -175,7 +175,7 @@ const OnClickActionPopUp = ({ handleClosePopupEditAction, activepage }) => {
 
       try {
         const response = await axios.post(
-          "http://ce66-17.cloud.ce.kmitl.ac.th/users/getscript",
+          "https://ce66-17.cloud.ce.kmitl.ac.th/users/getscript",
           // "http://ceproject.thddns.net:3322/users/getscript",
           {
             id: ID,
@@ -412,7 +412,7 @@ ${bodyInputVariable}
     const pagename = activepage.slice(0, -5);
     try {
       const response = await axios.post(
-        "http://ce66-17.cloud.ce.kmitl.ac.th/users/savefunc",
+        "https://ce66-17.cloud.ce.kmitl.ac.th/users/savefunc",
         // "http://ceproject.thddns.net:3322/users/savefunc",
         {
           id: ID,
@@ -443,9 +443,9 @@ ${bodyInputVariable}
     const pagename = activepage.slice(0, -5);
     try {
       const response = await axios.post(
-        "http://ce66-17.cloud.ce.kmitl.ac.th/users/savefunc",
+        "https://ce66-17.cloud.ce.kmitl.ac.th/users/savefunc",
         // "http://ceproject.thddns.net:3322/users/editscript",
-        // "http://ce66-17.cloud.ce.kmitl.ac.th/users/editscript",
+        // "https://ce66-17.cloud.ce.kmitl.ac.th/users/editscript",
 
         {
           userID: ID,

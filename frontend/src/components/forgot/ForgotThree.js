@@ -21,7 +21,7 @@
 //       return;
 //     }
 
-//     const apiUrl = "http://ce66-17.cloud.ce.kmitl.ac.th:8000/repass";
+//     const apiUrl = "https://ce66-17.cloud.ce.kmitl.ac.th:8000/repass";
 
 //     try {
 //       // Make a PUT request to the Django API
@@ -181,7 +181,7 @@ function ForgotThree() {
     //   return;
     // }
 
-    const apiUrl = "http://ce66-17.cloud.ce.kmitl.ac.th/reset";
+    const apiUrl = "https://ce66-17.cloud.ce.kmitl.ac.th/reset";
     // const apiUrl = "http://ceproject.thddns.net:3322/reset";
 
     try {

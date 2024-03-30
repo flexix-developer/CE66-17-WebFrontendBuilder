@@ -40,7 +40,7 @@ export const SavePage = async (state, html) => {
 
   try {
     await axios.post(
-      "http://ce66-17.cloud.ce.kmitl.ac.th/users/savepage",
+      "https://ce66-17.cloud.ce.kmitl.ac.th/users/savepage",
       // "http://ceproject.thddns.net:3322/users/savepage",
       {
         id: ID,

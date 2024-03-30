@@ -44,7 +44,7 @@ const CodePopUp = ({ htmlCode, jsCode, closePopUp, activepage }) => {
     if (selectedCode === "html") {
       try {
         const response = await axios.post(
-          "http://ce66-17.cloud.ce.kmitl.ac.th/users/savepage",
+          "https://ce66-17.cloud.ce.kmitl.ac.th/users/savepage",
           // "http://ceproject.thddns.net:3322/users/savepage",
           {
             id: ID,
@@ -67,7 +67,7 @@ const CodePopUp = ({ htmlCode, jsCode, closePopUp, activepage }) => {
     } else {
       try {
         await axios.post(
-          "http://ce66-17.cloud.ce.kmitl.ac.th/users/editscript",
+          "https://ce66-17.cloud.ce.kmitl.ac.th/users/editscript",
           // "http://ceproject.thddns.net:3322/users/editscript",
           {
             userID: ID,
@@ -110,7 +110,7 @@ const CodePopUp = ({ htmlCode, jsCode, closePopUp, activepage }) => {
       const token = localStorage.getItem("token");
 
       const response = await axios.post(
-        "http://ce66-17.cloud.ce.kmitl.ac.th/users/getpage",
+        "https://ce66-17.cloud.ce.kmitl.ac.th/users/getpage",
         // "http://ceproject.thddns.net:3322/users/getpage",
         {
           id: ID,

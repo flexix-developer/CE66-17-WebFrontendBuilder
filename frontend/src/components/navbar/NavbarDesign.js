@@ -29,7 +29,7 @@ function NavBarDesign({
     const token = localStorage.getItem("token");
     try {
       const response = await axios.post(
-        "http://ce66-17.cloud.ce.kmitl.ac.th/users/preview",
+        "https://ce66-17.cloud.ce.kmitl.ac.th/users/preview",
         // "http://ceproject.thddns.net:3322/users/preview",
         {
           id: ID,

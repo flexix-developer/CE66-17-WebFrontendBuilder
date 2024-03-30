@@ -42,9 +42,9 @@ func main() {
 	config.AllowHeaders = []string{"Origin", "Content-Type", "Content-Length", "Authorization"}
 	//   r.Use(cors.Default())
 	r.Use(cors.New(config))
-	r.POST("/register", AuthController.Register)
-	r.POST("/login", AuthController.Login)
-	r.POST("/forgot", OtpController.ForgotAPI)
+	r.POST("/signup", AuthController.Register)
+	r.POST("/signin", AuthController.Login)
+	r.POST("/forgotpass", OtpController.ForgotAPI)
 	r.POST("/check", OtpController.CheckOTPAPI)
 	r.PUT("/reset", OtpController.ResetPassAPI)
 	authorized := r.Group("/users", middleware.JWTAuthen())

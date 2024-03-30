@@ -16,7 +16,7 @@
 
 //     try {
 //       // Perform API call to Django backend
-//       const response = await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th:8000/forgot", {
+//       const response = await axios.post("https://ce66-17.cloud.ce.kmitl.ac.th:8000/forgot", {
 //         Email: email,
 //       });
 
@@ -122,7 +122,7 @@ function ForgotOne({ onNextStep }) {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://ce66-17.cloud.ce.kmitl.ac.th/forgot", {
+      const response = await axios.post("https://ce66-17.cloud.ce.kmitl.ac.th/forgotpass", {
         // const response = await axios.post(
         //   "http://ceproject.thddns.net:3322/forgot",
         //   {
